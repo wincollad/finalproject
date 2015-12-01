@@ -30,16 +30,89 @@ Author: Your Name
 /*******************************************/
 
 .site-container {
-	max-width: 960px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
 .site-header {
 
 }
-.site-header h1 {
-	color:red;
+
+.grid-row {
+    border: 5px solid red;
 }
+
+.grid-column {
+    border: 5px solid blue;
+    min-height: 50%;
+}
+
+.grid-row {
+    margin:0 auto;
+}
+
+.grid-column {
+    float: left;
+    margin:0;
+    padding:0;
+}
+
+.grid-quarter {
+    width: 25%;
+}
+
+.grid-third {
+    width: 33.3333%;
+}
+
+.grid-half {
+    width: 50%;
+}
+
+.grid-two-third {
+    width:66.67%;
+}
+
+.grid-three-quarter {
+    width: 75%;
+}
+
+.grid-whole {
+    width: 100%;
+}
+
+.grid-whole video {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    background: url(sunset.mp4) no-repeat;
+    background-size: cover;
+}
+
+.content h1 {
+    position: absolute;
+    top: 40%;
+    right: 42%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+.content p {
+    position: absolute;
+    top: 60%;
+    right: 32%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+
 .site-content {
 
 }
