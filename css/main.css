@@ -52,13 +52,13 @@ Author: Your Name
     display: inline-block;
 }
 
-
 .grid-quarter {
     width: 25%;
 }
 
 .grid-third {
     width: 33.3333%;
+    float:left;
 }
 
 .grid-half {
@@ -67,37 +67,12 @@ Author: Your Name
 
 .grid-two-third {
     width:66.66%;
-}
-
-
-.malawisunset {
-    width: 40%;
-    margin-right: 10px;
-    margin-left: 50px;
-    margin-top: 10px;
+    float: right;
 }
 
 .malawibaobab {
-    width:250px;
-    height:250px;
-    margin: 10px;
-}
-
-.malawipines {
-    width:220px;
-    height:220px;
-    margin-right: 10px;
-    margin-left: 30px;
-
-}
-
-.malawiroots {
-    position:relative;
-    width:140px;
-    height:140px;
-    margin-top: 80px;
-    margin-right: 10px;
-    margin-left: 12px;
+    width:200px;
+    height:200px;
 }
 
 .grid-three-quarter {
@@ -136,8 +111,6 @@ Author: Your Name
     color: white;
 
 }
-
-
 
 
 .site-content {
