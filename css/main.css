@@ -45,6 +45,7 @@ Author: Your Name
     min-height: 558px;
     float: left;
     display: inline-block;
+    margin-top: -10px;
 }
 
 
@@ -71,9 +72,8 @@ Author: Your Name
     width:250px;
     height:250px;
     margin-left: 20px;
-    margin-bottom: 10px;
-    padding-bottom: -10px;
-    margin-top: 13px;
+    padding-bottom: -20px;
+    margin-top: 18px;
     border-radius: 50%;
 }
 
@@ -81,18 +81,17 @@ Author: Your Name
     width:250px;
     height:250px;
     margin-left: 20px;
-    margin-bottom: 10px;
-    padding-bottom: -10px;
-    margin-top: 15px;
+    padding-bottom: -20px;
+    margin-top: 18px;
+    border-radius: 50%;
 }
 
 .malawipines {
     width:250px;
     height:250px;
     margin-left: 20px;
-    margin-bottom: 10px;
-    padding-bottom: -10px;
-    margin-top: 14px;
+    padding-bottom: -20px;
+    margin-top: 18px;
     border-radius: 50%;
 }
 
@@ -100,9 +99,9 @@ Author: Your Name
     width:250px;
     height:250px;
     margin-left: 20px;
-    margin-bottom: 10px;
-    padding-bottom: -10px;
-    margin-top: 15px;
+    padding-bottom: -20px;
+    margin-top: 18px;
+    border-radius: 50%;
 }
 
 .grid-three-quarter {
