@@ -34,21 +34,16 @@ Author: Your Name
 	margin: 0 auto;
 }
 
-.site-header {
+.site-header {}
 
-}
 
 .grid-row {
-    border: 5px solid red;
-    margin:0 auto;
+    margin:0;
 }
 
 .grid-column {
-    border: 5px solid blue;
-    min-height: 300px;
+    min-height: 558px;
     float: left;
-    margin:0;
-    padding:0;
     display: inline-block;
 }
 
@@ -59,6 +54,7 @@ Author: Your Name
 
 .grid-third {
     width: 33.3333%;
+    background-color: #B2967D;
 }
 
 .grid-half {
@@ -67,37 +63,46 @@ Author: Your Name
 
 .grid-two-third {
     width:66.66%;
+    background-color: #ECF8F8;
 }
 
 
 .malawisunset {
-    width: 40%;
-    margin-right: 10px;
-    margin-left: 50px;
-    margin-top: 10px;
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    margin-top: 13px;
+    border-radius: 50%;
 }
 
 .malawibaobab {
     width:250px;
     height:250px;
-    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    margin-top: 15px;
 }
 
 .malawipines {
-    width:220px;
-    height:220px;
-    margin-right: 10px;
-    margin-left: 30px;
-
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    margin-top: 14px;
+    border-radius: 50%;
 }
 
 .malawiroots {
-    position:relative;
-    width:140px;
-    height:140px;
-    margin-top: 80px;
-    margin-right: 10px;
-    margin-left: 12px;
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    margin-top: 15px;
 }
 
 .grid-three-quarter {
@@ -121,7 +126,7 @@ Author: Your Name
 .headercontent h1 {
     position: absolute;
     top: 40%;
-    right: 42%;
+    right: 39%;
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
     color: white;
@@ -130,14 +135,26 @@ Author: Your Name
 .headercontent p {
     position: absolute;
     top: 60%;
-    right: 31%;
+    right: 41%;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: white;
 
 }
 
+p {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    position:relative;
+    margin-top: 50%;
+    margin-left: 25%;
 
+}
+
+.firstpara {
+    margin-top: 20px;
+}
 
 
 .site-content {
