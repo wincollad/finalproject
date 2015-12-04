@@ -40,21 +40,16 @@ Author: Your Name
 
 .grid-row {
     border: 5px solid red;
-}
-
-.grid-column {
-    border: 5px solid blue;
-    min-height: 50%;
-}
-
-.grid-row {
     margin:0 auto;
 }
 
 .grid-column {
+    border: 5px solid blue;
+    min-height: 300px;
     float: left;
     margin:0;
     padding:0;
+    display: inline-block;
 }
 
 .grid-quarter {
@@ -63,6 +58,7 @@ Author: Your Name
 
 .grid-third {
     width: 33.3333%;
+    float:left;
 }
 
 .grid-half {
@@ -70,7 +66,13 @@ Author: Your Name
 }
 
 .grid-two-third {
-    width:66.67%;
+    width:66.66%;
+    float: right;
+}
+
+.malawibaobab {
+    width:200px;
+    height:200px;
 }
 
 .grid-three-quarter {
@@ -91,7 +93,7 @@ Author: Your Name
     background-size: cover;
 }
 
-.content h1 {
+.headercontent h1 {
     position: absolute;
     top: 40%;
     right: 42%;
@@ -100,17 +102,15 @@ Author: Your Name
     color: white;
 }
 
-.content p {
+.headercontent p {
     position: absolute;
     top: 60%;
-    right: 32%;
+    right: 31%;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: white;
 
 }
-
-
 
 
 .site-content {
