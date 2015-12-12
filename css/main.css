@@ -67,8 +67,21 @@ Author: Your Name
     background-color: #ECF8F8;
 }
 
+video {
+    max-width: 100%;
+}
 
-.malawisunset {
+.sunsets {
+    width:250px;
+    max-width: 100%;
+    height:250px;
+    margin-left: 20px;
+    padding-bottom: -20px;
+    margin-top: 18px;
+    border-radius: 50%;
+}
+
+.trees {
     width:250px;
     height:250px;
     margin-left: 20px;
@@ -77,7 +90,7 @@ Author: Your Name
     border-radius: 50%;
 }
 
-.malawibaobab {
+.pines {
     width:250px;
     height:250px;
     margin-left: 20px;
@@ -86,16 +99,7 @@ Author: Your Name
     border-radius: 50%;
 }
 
-.malawipines {
-    width:250px;
-    height:250px;
-    margin-left: 20px;
-    padding-bottom: -20px;
-    margin-top: 18px;
-    border-radius: 50%;
-}
-
-.malawiroots {
+.roots {
     width:250px;
     height:250px;
     margin-left: 20px;
@@ -124,7 +128,7 @@ Author: Your Name
 
 .headercontent h1 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 39%;
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
@@ -133,7 +137,7 @@ Author: Your Name
 
 .headercontent p {
     position: absolute;
-    top: 60%;
+    top: 61%;
     right: 41%;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -141,13 +145,13 @@ Author: Your Name
 
 }
 
-p {
+.site-content p {
     color:white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    position:relative;
-    margin-top: 50%;
-    margin-left: 25%;
+    font-size: 30px;
+    position: relative;
+    margin-top: 60%;
+    margin-left: 35%;
 
 }
 
@@ -160,7 +164,25 @@ p {
 
 }
 .site-footer {
+    clear:both; 
+    background-color: black;
+    height:50px;
+    color: white;
+}
 
+.site-footer ul {
+    float:right;
+}
+
+.site-footer li {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    float:left;
+    color: white;
+    list-style: none;
+    padding-left:20px;
+    padding-right:10px;
+    padding-top: 10px;
 }
 
 /******************************************
