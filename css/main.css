@@ -159,9 +159,29 @@ p {
 .site-content {
 
 }
-.site-footer {
 
+.site-footer {
+    clear:both; 
+    background-color: black;
+    height:50px;
+    color: white;
 }
+
+.site-footer ul {
+    float:right;
+}
+
+.site-footer li {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    float:left;
+    color: white;
+    list-style: none;
+    padding-left:20px;
+    padding-right:10px;
+    padding-top: 10px;
+}
+
 
 /******************************************
 /* HELPER CLASSES
