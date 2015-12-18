@@ -9,6 +9,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
+
+		<script type="text/javascript">
+			var ypos, video;
+			function parallex () {
+				ypos = window.pageYOffset;
+				video = document.getElementById('video');
+				video.style.top = ypos * .5 +'px';
+			}
+			window.addEventListener( 'scroll', parallex);
+		</script>
 	</head>
 	
 	<body>
@@ -16,7 +26,7 @@
 			<header class="site-header">	
 				<div class="grid-row clearfix">
 					<div class="grid-column grid-whole">
-						<video autoplay loop poster="sunset.mp4">
+						<video id="video" autoplay loop poster="sunset.mp4">
 				 			<source src="sunset.webm" type="video/webm">
 				 			<source src="sunset.mp4" type="video/mp4">
 						</video>
@@ -29,7 +39,7 @@
 			</header>
 			
 			<main class="site-content">
-				<div class="grid-row clearfix"> 
+				<div id="sunset" class="grid-row clearfix"> 
 					<div class="grid-column grid-third"> 
 						<a href="sunsets.html"> <p> SUNSETS </p> </a>
 					</div>

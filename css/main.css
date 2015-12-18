@@ -34,7 +34,10 @@ Author: Your Name
 	margin: 0 auto;
 }
 
-.site-header {}
+.site-header {
+  
+}
+
 
 
 .grid-row {
@@ -211,6 +214,14 @@ Author: Your Name
     max-width:100%;
     max-height:100%;
     margin-bottom: -10px;
+}
+
+#video {
+    z-index: -1;
+}
+
+#sunset{
+    z-index: 1;
 }
 
 /******************************************
