@@ -182,6 +182,11 @@ Author: Your Name
     text-decoration: none;
 }
 
+.site-footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .site-content h2 {
     color: #B2967D;
     font-family: 'Open Sans', sans-serif;
