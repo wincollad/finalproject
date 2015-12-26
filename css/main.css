@@ -255,7 +255,7 @@ Author: Your Name
    .headercontent h1{
     position: absolute;
     top: 25%;
-    right: 36%;
+    right: 40%;
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     color: white;
@@ -287,7 +287,7 @@ Author: Your Name
   .headercontent p {
     position: absolute;
     top: 37%;
-    right: 34%;
+    right: 39%;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: white;
@@ -345,6 +345,13 @@ Author: Your Name
     color: white;
 }
 
+@media only screen and (max-width: 800px) {
+  .site-footer {
+    margin-top: -16px;
+
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .site-footer {
     margin-top: -16px;
@@ -355,6 +362,12 @@ Author: Your Name
 
 .site-footer ul {
     float:right;
+}
+
+@media only screen and (max-width: 800px) {
+  .site-footer ul {
+    float: none;
+  }
 }
 
 
@@ -382,9 +395,9 @@ Author: Your Name
     float:left;
     color: white;
     list-style: none;
-    padding-left:20px;
+    padding-left:50px;
     padding-right:10px;
-    padding-top: 10px;
+    padding-top: 25px;
   }
 }
 
