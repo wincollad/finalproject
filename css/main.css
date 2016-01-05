@@ -217,6 +217,15 @@ Author: Your Name
     width: 100%;
 }
 
+.grid-whole img {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    background: url(../screenshot.png) no-repeat;
+    background-size: cover;
+}
 
 .grid-whole video {
     position: relative;
@@ -224,7 +233,7 @@ Author: Your Name
     min-width: 100%;
     width: auto;
     height: auto;
-    background: url(sunset.mp4) no-repeat;
+    background: url(../sunset.mp4) no-repeat;
     background-size: cover;
 }
 
@@ -457,12 +466,16 @@ Author: Your Name
     margin-bottom: -10px;
 }
 
-#video {
+#myVideo {
     z-index: -1;
 }
 
 #sunset{
     z-index: 1;
+}
+
+#myImage {
+    z-index: -1;
 }
 
 /******************************************
